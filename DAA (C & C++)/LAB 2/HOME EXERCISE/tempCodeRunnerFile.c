@@ -1,0 +1,1 @@
+insertsortasc(arr,k);

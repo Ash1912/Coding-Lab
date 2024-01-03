@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+    text-decoration: red underline;
+    color: red;
+    background-color :skyblue;
+}
+
+h2
+{
+    font-size: 20pt; 
+}
+
+body
+{
+    background-color :pink;
+    font-size: 14pt;
+}

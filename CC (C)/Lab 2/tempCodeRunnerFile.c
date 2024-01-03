@@ -1,0 +1,1 @@
+&& time[j] != INT_MAX

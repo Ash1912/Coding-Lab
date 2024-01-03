@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title >Nested Framesets in HTML</title>
+</head>
+<frameset rows="*, *">
+	<frameset cols="*">
+		<frame name="A" src="A.html">
+	</frameset>
+	<frameset cols="*, *">
+		<frame name="B" src="B.html">
+			<frameset rows="*, *">
+		<frame name="C" src="C.html">
+            <frameset cols="*, *">
+        <frame name="D" src="D.html">
+        <frame name="E" src="E.html">
+	        </frameset>
+            </frameset>
+    </frameset>
+</frameset>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Application </title>
+    <style>
+        form {
+            background-color :skyblue;
+        }
+    </style>
+</head>
+<body style = "background-color :pink ">
+    <h2 align="center">FLIGHT RESERVATION</h2><br>
+<form>
+    <fieldset>
+        <legend><h3><b>FLIGHT DETAILS</b></h3></legend>
+        <label for="From">From : </label><br><br>
+        <input type = "text" id="userid" name="UserId" value="" placeholder="Starting Point" required><br></br>
+        <label for="To">To :&ensp;&ensp; </label><br><br>
+        <input type = "password" id="userid" name="UserId" value="" placeholder="Destination" required><br></br>
+        <br><small>Format : Enter your city name you want to board your flight form and your destination </small><br><br>
+        Date of Departure : <label class="control-style"></label>
+        <input type="datetime-local" name="dateofdeperture" required > <br><br><br>
+         Flight Class : 
+        <input type = "radio" name = " Flight Class " value ="First Class"> First Class 
+        <input type = "radio" name = " Flight Class " value ="Business Class"> Business Class 
+        <input type = "radio" name = " Flight Class " value ="Economy Class"> Economy Class 
+        <br><br><br>
+        Journey : &ensp;&emsp;
+        <input type = "radio" name = " One time " value ="One time"> One Time 
+        <input type = "radio" name = " Return " value ="Return"> Return 
+        <br><br><br>
+        Weight more than 50kgs : <input type = "checkbox" name ="Weight more than 40kgs" value="HTML"> 
+    <br><br>
+    </fieldset>
+    <fieldset>
+        <legend><h3>PERSONAL INFORMATION </h3></legend>
+        First Name :&emsp;
+        <input type = "text" name = "firstname " placeholder="Enter First Name " required > <br><br>
+        Middle Name : 
+        <input type = "text" name = "middlename " placeholder="Enter Middle Name " required > <br><br>
+        Last Name :&emsp;&nbsp;
+        <input type = "text" name = "lastname " placeholder="Enter Last Name "><br><br>
+        Gender : 
+        <input type = "radio" name = " gender " value ="male "> Male 
+        <input type = "radio" name = " gender " value ="female "> Female 
+        <input type = "radio" name = " gender " value ="female "> Others<br><br><br>
+        Country :&emsp;&ensp; <input list ="Country" name ="Country">
+        <datalist id ="Country">
+        <option value = "INDIA">
+        <option value = "JAPAN">
+        <option value = "UK">
+        <option value = "USA">
+        <option value = "NEPAL">
+        </datalist>
+        <br><br>
+        E-Mail :&emsp;&emsp; 
+        <input type ="email" name="email" required> <br><br>
+        Contact-No. : 
+        <input type ="contactno." name="contactno" required> <br><br>
+        Address : <br/><textarea rows='5' cols="40"></textarea><br>
+    </fieldset>
+    <br><br>
+    <input type="Submit" size="10px" title="ENTER THE ABOVE DETAILS AND CLICKS ME ">
+    <marquee behavior="alternate" direction="right">!!! THANK YOU for visiting our site.Hope You have a Wonderful Day ahead !!!</marquee>
+</form>
+</body>
+</html>
+ 
+    
+    

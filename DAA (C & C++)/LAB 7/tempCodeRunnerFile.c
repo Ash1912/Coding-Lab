@@ -1,0 +1,1 @@
+//Write a C program to solve Knapsack problem using 0/1 method.

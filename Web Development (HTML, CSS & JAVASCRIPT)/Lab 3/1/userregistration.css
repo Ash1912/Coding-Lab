@@ -1,0 +1,74 @@
+*
+{
+    box-sizing: border-box;
+}
+
+html
+{
+   margin: 0;
+   background-color: aqua;
+    background-size: cover;
+}
+
+h2
+{
+    text-align: center;
+    background-color: aqua;
+    font-size: 20pt;
+}
+
+.Container-1
+{
+    font-style: italic;
+    font-family: cursive;
+    margin: 0;
+    text-align: center;
+    background-color: aqua;
+}
+
+input[type="text"],input[type="date"],input[type="email"]
+{
+   width: 35%;
+   padding: 6px;
+   border-radius: 3px;
+   margin: 0px;
+}
+
+.Address
+{
+    display: flex;
+}
+
+textarea
+{
+    width: 450px;
+    margin-top: 0;
+    border: 2px solid darkblue;
+    border-radius: 3px;
+}
+
+
+.Container-2 .Address-1
+{
+    display: flex;
+}
+
+.Button
+{
+   display: flex;
+   justify-content: center;
+}
+
+.Button button
+{
+    padding: 3px;
+    border-radius: 3px;
+    background-color: lightskyblue;
+}
+
+.Button button:hover
+{
+    background-color: royalblue;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}

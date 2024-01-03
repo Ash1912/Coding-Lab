@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "chrono": "c",
+        "xutility": "c",
+        "Q7.C": "cpp",
+        "stdlib.h": "c"
+    },
+    "liveServer.settings.port": 5501
+}
